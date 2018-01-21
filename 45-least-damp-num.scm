@@ -1,0 +1,5 @@
+(define (least-damp-num n)
+  (define (log2 x)
+    (/ (log x)
+       (log 2)))
+  (floor (log2 n)))
